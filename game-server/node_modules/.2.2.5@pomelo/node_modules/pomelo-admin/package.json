@@ -1,0 +1,20 @@
+{
+  "name": "pomelo-admin",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "mqtt-connection": "3.0.0",
+    "pomelo-scheduler": "0.3.8",
+    "pomelo-monitor": "0.3.7"
+  },
+  "peerDependencies": {
+    "pomelo-logger": "0.1.7"
+  },
+  "devDependencies": {
+    "should": ">=0.0.1",
+    "mocha": ">=0.0.1",
+    "flow": ">=0.0.1"
+  },
+  "_from": "pomelo-admin@1.0.0",
+  "_resolved": "http://registry.npm.taobao.org/pomelo-admin/download/pomelo-admin-1.0.0.tgz"
+}
