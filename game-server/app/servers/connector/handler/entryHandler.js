@@ -40,7 +40,7 @@ handler.enter = function(msg, session, next) {
 		}
 	});
 
-	//注册离线
+	//监听离线
 	session.on('closed', onUserLeave.bind(null, self.app));
 
 	//put user into channel

@@ -65,6 +65,9 @@ RoomRemote.prototype.get = function(name, flag) {
  *
  */
 RoomRemote.prototype.kick = function(uid, sid, name, cb) {
+
+	console.warn('RoomRemote.prototype.kick uid = %s, sid = %s, name = %s',uid, sid, name);
+
 	var channel = this.channelService.getChannel(name, false);
 	// leave channel
 	if( !! channel) {
