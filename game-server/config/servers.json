@@ -15,6 +15,11 @@
 	    ],
         "auth":[
             {"id": "auth-server-1", "host": "127.0.0.1", "clientPort": 3010, "frontend": true}
+        ],
+        "room":[
+          {"id":"room-server-1", "host":"127.0.0.1", "port":3100},
+          {"id":"room-server-2", "host":"127.0.0.1", "port":3101},
+          {"id":"room-server-3", "host":"127.0.0.1", "port":3102}
         ]
     },
     "production":{
@@ -33,6 +38,11 @@
         ],
         "auth":[
           {"id": "auth-server-1", "host": "127.0.0.1", "clientPort": 3010, "frontend": true}
+        ],
+        "room":[
+          {"id":"room-server-1", "host":"127.0.0.1", "port":3100},
+          {"id":"room-server-2", "host":"127.0.0.1", "port":3101},
+          {"id":"room-server-3", "host":"127.0.0.1", "port":3102}
         ]
   }
 }

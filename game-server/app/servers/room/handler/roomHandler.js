@@ -1,4 +1,4 @@
-var chatRemote = require('../remote/chatRemote');
+var roomRemote = require('../remote/roomRemote');
 
 module.exports = function(app) {
 	return new Handler(app);
@@ -19,7 +19,7 @@ var handler = Handler.prototype;
  *
  */
 handler.send = function(msg, session, next) {
-	console.warn('chatHandler.send : msg = %s',JSON.stringify(msg));
+	console.warn('roomHandler.send : msg = %s',JSON.stringify(msg));
 	var rid = session.get('rid');
 	var username = session.uid.split('*')[0];
 	var channelService = this.app.get('channelService');
@@ -32,13 +32,13 @@ handler.send = function(msg, session, next) {
 
 	//the target is all users
 	if(msg.target == '*') {
-		channel.pushMessage('onChat', param);
+		channel.pushMessage('onRoom', param);
 	}
 	//the target is specific user
 	else {
 		var tuid = msg.target + '*' + rid;
 		var tsid = channel.getMember(tuid)['sid'];
-		channelService.pushMessageByUids('onChat', param, [{
+		channelService.pushMessageByUids('onRoom', param, [{
 			uid: tuid,
 			sid: tsid
 		}]);
