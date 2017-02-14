@@ -1,5 +1,3 @@
-var roomRemote = require('../remote/roomRemote');
-
 module.exports = function(app) {
 	return new Handler(app);
 };
@@ -24,7 +22,7 @@ handler.send = function(msg, session, next) {
 	var username = session.uid.split('*')[0];
 	var channelService = this.app.get('channelService');
 	var param = {
-		msg: msg.content,
+		msg: msg.content+'聊天信息',
 		from: username,
 		target: msg.target
 	};
@@ -46,4 +44,11 @@ handler.send = function(msg, session, next) {
 	next(null, {
 		route: msg.route
 	});
+};
+
+/**
+ * 创建房间
+ * */
+handler.createRoom = function (msg , session , next ) {
+
 };

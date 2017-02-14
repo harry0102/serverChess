@@ -39,14 +39,22 @@ handler.enter = function(msg, session, next) {
 			console.error('set rid for session service failed! error is : %j', err.stack);
 		}
 	});
+
+	//注册离线
 	session.on('closed', onUserLeave.bind(null, self.app));
 
 	//put user into channel
-	self.app.rpc.chat.chatRemote.add(session, uid, self.app.get('serverId'), rid, true, function(users){
+	self.app.rpc.room.roomRemote.add(session, uid, self.app.get('serverId'), rid, true, function(users){
 		next(null, {
 			users:users
 		});
 	});
+
+	// self.app.rpc.chat.chatRemote.add(session, uid, self.app.get('serverId'), rid, true, function(users){
+	// 	next(null, {
+	// 		users:users
+	// 	});
+	// });
 };
 
 /**
@@ -61,5 +69,6 @@ var onUserLeave = function(app, session) {
 	if(!session || !session.uid) {
 		return;
 	}
-	app.rpc.chat.chatRemote.kick(session, session.uid, app.get('serverId'), session.get('rid'), null);
+	//app.rpc.chat.chatRemote.kick(session, session.uid, app.get('serverId'), session.get('rid'), null);
+	app.rpc.room.roomRemote.kick(session, session.uid, app.get('serverId'), session.get('rid'), null);
 };

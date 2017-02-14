@@ -182,7 +182,7 @@ $(document).ready(function() {
 	showLogin();
 
 	//wait message from the server.
-	pomelo.on('onChat', function(data) {
+	pomelo.on('onRoom', function(data) {
 		addMessage(data.from, data.target, data.msg);
 		$("#chatHistory").show();
 		if(data.from !== username)
@@ -251,7 +251,7 @@ $(document).ready(function() {
 
 	//deal with chat mode.
 	$("#entry").keypress(function(e) {
-		var route = "chat.chatHandler.send";
+		var route = "room.roomHandler.send";
 		var target = $("#usersList").val();
 		if(e.keyCode != 13 /* Return */ ) return;
 		var msg = $("#entry").attr("value").replace("\n", "");

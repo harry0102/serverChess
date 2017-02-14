@@ -16,3 +16,109 @@
 [2017-02-14 16:20:03.512] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server chat-server-2 host: 127.0.0.1, port: 6051
 [2017-02-14 16:20:45.965] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-3 is error, remote server chat-server-2 host: 127.0.0.1, port: 6051
 [2017-02-14 16:20:45.965] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server chat-server-2 host: 127.0.0.1, port: 6051
+[2017-02-14 16:52:29.059] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-3 is error, remote server room-server-2 host: 127.0.0.1, port: 3101
+[2017-02-14 17:00:35.138] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'pushMessage' of undefined
+    at Handler.handler.send (C:\Users\pengy\Documents\GitHub\serverChess\game-server\app\servers\chat\handler\chatHandler.js:35:10)
+    at Service.handle (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\handlerService.js:59:20)
+    at handle (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\server\server.js:375:25)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:50:7)
+    at Filter.before (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:58:15)
+    at Filter.before (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:58:15)
+    at Service.beforeFilter (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\server\server.js:242:8)
+[2017-02-14 17:02:20.347] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-3 is error, remote server room-server-3 host: 127.0.0.1, port: 3102
+[2017-02-14 17:02:20.388] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-3 is error, remote server chat-server-3 host: 127.0.0.1, port: 6052
+[2017-02-14 17:02:30.689] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'pushMessage' of undefined
+    at Handler.handler.send (C:\Users\pengy\Documents\GitHub\serverChess\game-server\app\servers\chat\handler\chatHandler.js:35:10)
+    at Service.handle (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\handlerService.js:59:20)
+    at handle (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\server\server.js:375:25)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:50:7)
+    at Filter.before (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:58:15)
+    at Filter.before (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:58:15)
+    at Service.beforeFilter (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\server\server.js:242:8)
+[2017-02-14 17:04:50.057] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server room-server-1 host: 127.0.0.1, port: 3100
+[2017-02-14 17:04:50.078] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-3 host: 127.0.0.1, port: 6052
+[2017-02-14 17:06:22.446] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-3 host: 127.0.0.1, port: 6052
+[2017-02-14 17:06:43.865] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'pushMessage' of undefined
+    at Handler.handler.send (C:\Users\pengy\Documents\GitHub\serverChess\game-server\app\servers\chat\handler\chatHandler.js:35:10)
+    at Service.handle (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\handlerService.js:59:20)
+    at handle (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\server\server.js:375:25)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:50:7)
+    at Filter.before (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:58:15)
+    at Filter.before (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:58:15)
+    at Service.beforeFilter (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\server\server.js:242:8)
+[2017-02-14 17:06:58.638] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server room-server-2 host: 127.0.0.1, port: 3101
+[2017-02-14 17:06:58.674] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-3 host: 127.0.0.1, port: 6052
+[2017-02-14 17:07:07.160] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'pushMessage' of undefined
+    at Handler.handler.send (C:\Users\pengy\Documents\GitHub\serverChess\game-server\app\servers\chat\handler\chatHandler.js:35:10)
+    at Service.handle (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\handlerService.js:59:20)
+    at handle (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\server\server.js:375:25)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:50:7)
+    at Filter.before (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:58:15)
+    at Filter.before (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:58:15)
+    at Service.beforeFilter (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\server\server.js:242:8)
+[2017-02-14 17:09:37.393] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server room-server-2 host: 127.0.0.1, port: 3101
+[2017-02-14 17:09:37.494] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server chat-server-2 host: 127.0.0.1, port: 6051
+[2017-02-14 17:09:44.543] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'pushMessage' of undefined
+    at Handler.handler.send (C:\Users\pengy\Documents\GitHub\serverChess\game-server\app\servers\chat\handler\chatHandler.js:35:10)
+    at Service.handle (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\handlerService.js:59:20)
+    at handle (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\server\server.js:375:25)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:50:7)
+    at Filter.before (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:58:15)
+    at Filter.before (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:58:15)
+    at Service.beforeFilter (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.2.2.5@pomelo\lib\server\server.js:242:8)
+[2017-02-14 17:10:28.625] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server room-server-2 host: 127.0.0.1, port: 3101
+[2017-02-14 17:10:28.659] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-2 is error, remote server chat-server-1 host: 127.0.0.1, port: 6050
+[2017-02-14 17:14:50.518] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-3 is error, remote server room-server-2 host: 127.0.0.1, port: 3101
+[2017-02-14 17:15:05.849] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'pushMessage' of undefined
+    at ChatRemote.kick (C:\Users\pengy\Documents\GitHub\serverChess\game-server\app\servers\chat\remote\chatRemote.js:78:9)
+    at Dispatcher.pro.route (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\dispatcher.js:52:10)
+    at Acceptor.cb (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\gateway.js:22:16)
+    at processMsg (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:138:12)
+    at Connection.<anonymous> (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:62:11)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:189:7)
+    at Connection.emitPacket (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.3.0.0@mqtt-connection\connection.js:14:8)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:189:7)
+[2017-02-14 17:15:09.412] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-3 is error, remote server room-server-2 host: 127.0.0.1, port: 3101
+[2017-02-14 17:15:09.531] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-3 is error, remote server chat-server-3 host: 127.0.0.1, port: 6052
+[2017-02-14 17:15:28.699] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'pushMessage' of undefined
+    at ChatRemote.kick (C:\Users\pengy\Documents\GitHub\serverChess\game-server\app\servers\chat\remote\chatRemote.js:78:9)
+    at Dispatcher.pro.route (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\dispatcher.js:52:10)
+    at Acceptor.cb (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\gateway.js:22:16)
+    at processMsg (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:138:12)
+    at Connection.<anonymous> (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:62:11)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:189:7)
+    at Connection.emitPacket (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.3.0.0@mqtt-connection\connection.js:14:8)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:189:7)
+[2017-02-14 17:15:52.902] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'pushMessage' of undefined
+    at ChatRemote.kick (C:\Users\pengy\Documents\GitHub\serverChess\game-server\app\servers\chat\remote\chatRemote.js:78:9)
+    at Dispatcher.pro.route (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\dispatcher.js:52:10)
+    at Acceptor.cb (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\gateway.js:22:16)
+    at processMsg (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:138:12)
+    at Connection.<anonymous> (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.1.0.7@pomelo-rpc\lib\rpc-server\acceptors\mqtt-acceptor.js:62:11)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:189:7)
+    at Connection.emitPacket (C:\Users\pengy\Documents\GitHub\serverChess\game-server\node_modules\.3.0.0@mqtt-connection\connection.js:14:8)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:189:7)
+[2017-02-14 17:17:36.220] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server room-server-1 host: 127.0.0.1, port: 3100
+[2017-02-14 17:17:36.243] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-1 is error, remote server chat-server-3 host: 127.0.0.1, port: 6052
+[2017-02-14 17:18:41.111] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc socket connector-server-3 is error, remote server room-server-2 host: 127.0.0.1, port: 3101
