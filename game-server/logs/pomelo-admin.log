@@ -1,0 +1,779 @@
+[2017-02-09 14:02:12.841] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-09 14:02:12.880] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-09 14:02:14.090] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-09 14:02:14.093] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-09 14:02:14.089] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-09 14:02:14.101] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-09 14:02:14.120] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-09 14:02:14.118] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-09 14:02:14.120] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-09 14:16:09.951] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":12348}
+[2017-02-09 14:16:09.966] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":6500}
+[2017-02-09 14:16:09.972] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":12988}
+[2017-02-09 14:16:09.993] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":10928}
+[2017-02-09 14:16:10.014] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":11884}
+[2017-02-09 14:16:10.033] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":2244}
+[2017-02-09 14:16:10.053] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":8816}
+[2017-02-09 14:17:49.447] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-09 14:17:49.483] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-09 14:17:50.261] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-09 14:17:50.267] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-09 14:17:50.291] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-09 14:17:50.315] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-09 14:17:50.333] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-09 14:17:50.338] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-09 14:17:50.363] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-09 14:17:50.377] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-09 14:18:25.567] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":7496}
+[2017-02-09 14:23:41.041] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-09 14:23:41.070] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-09 14:23:41.866] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-09 14:23:41.876] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-09 14:23:41.947] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-09 14:23:41.955] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-09 14:23:41.967] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-09 14:23:41.987] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-09 14:23:42.014] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-09 14:23:42.033] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-09 14:23:44.243] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":15004}
+[2017-02-09 14:23:44.260] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":14952}
+[2017-02-09 14:23:44.278] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":14900}
+[2017-02-09 14:23:44.287] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":14880}
+[2017-02-09 14:23:44.310] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":14844}
+[2017-02-09 14:23:44.330] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":14824}
+[2017-02-09 14:23:44.349] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":14816}
+[2017-02-09 14:23:44.371] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":14792}
+[2017-02-14 11:25:24.031] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 11:25:24.069] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 11:25:25.227] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 11:25:25.243] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 11:25:25.262] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:25:25.269] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:25:25.269] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:25:25.270] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:25:25.287] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:25:25.281] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:27:06.973] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":7264}
+[2017-02-14 11:27:06.989] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":11432}
+[2017-02-14 11:27:06.989] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":12208}
+[2017-02-14 11:27:07.005] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":9396}
+[2017-02-14 11:27:07.043] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":10288}
+[2017-02-14 11:27:07.074] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":5976}
+[2017-02-14 11:27:07.090] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":11488}
+[2017-02-14 11:27:07.124] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\chatofpomelo-websocket\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":12068}
+[2017-02-14 11:51:28.970] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 11:51:29.023] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 11:51:29.573] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:51:29.596] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:51:29.595] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:51:29.602] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 11:51:29.675] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:51:29.674] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:51:29.692] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:51:29.701] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 11:51:46.538] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":584}
+[2017-02-14 11:51:46.554] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":11452}
+[2017-02-14 11:51:46.569] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":12356}
+[2017-02-14 11:51:46.585] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":7316}
+[2017-02-14 11:51:46.600] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":2112}
+[2017-02-14 11:51:46.623] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":10320}
+[2017-02-14 11:51:46.638] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":11808}
+[2017-02-14 11:51:46.654] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":10060}
+[2017-02-14 11:51:47.627] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 11:51:47.657] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 11:51:48.206] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:51:48.218] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:51:48.228] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:51:48.234] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 11:51:48.271] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 11:51:48.300] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:51:48.325] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:51:48.351] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:53:53.303] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9388}
+[2017-02-14 11:53:53.303] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":1772}
+[2017-02-14 11:53:53.340] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":2000}
+[2017-02-14 11:53:53.341] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":5372}
+[2017-02-14 11:53:53.357] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":4364}
+[2017-02-14 11:53:53.372] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":10328}
+[2017-02-14 11:53:53.388] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":12688}
+[2017-02-14 11:53:53.404] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":11748}
+[2017-02-14 11:53:58.480] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 11:53:58.511] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 11:53:59.036] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:53:59.045] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:53:59.092] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:53:59.103] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 11:53:59.106] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 11:53:59.114] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:53:59.126] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:53:59.157] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:54:48.629] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":6952}
+[2017-02-14 11:54:48.660] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7908}
+[2017-02-14 11:54:48.676] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":11512}
+[2017-02-14 11:54:48.691] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":9156}
+[2017-02-14 11:54:48.723] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":4740}
+[2017-02-14 11:54:48.729] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":4780}
+[2017-02-14 11:54:48.745] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":8392}
+[2017-02-14 11:54:48.761] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":12240}
+[2017-02-14 11:55:05.440] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 11:55:05.471] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 11:55:05.989] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:55:05.987] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:55:06.004] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:55:06.029] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 11:55:06.066] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:55:06.083] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:55:06.085] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:55:06.085] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 11:55:07.986] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":12080}
+[2017-02-14 11:55:08.002] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9524}
+[2017-02-14 11:55:08.020] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":11800}
+[2017-02-14 11:55:08.025] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":11900}
+[2017-02-14 11:55:08.040] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":3628}
+[2017-02-14 11:55:08.056] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":9560}
+[2017-02-14 11:55:08.087] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":5140}
+[2017-02-14 11:55:08.103] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":10836}
+[2017-02-14 11:57:10.044] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 11:57:10.061] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 11:57:10.574] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:57:10.574] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:57:10.564] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 11:57:10.661] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 11:57:10.659] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 11:57:10.670] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:57:10.672] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:57:10.687] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 11:59:44.620] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":8224}
+[2017-02-14 11:59:44.642] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":12368}
+[2017-02-14 11:59:44.657] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":4948}
+[2017-02-14 11:59:44.673] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":7884}
+[2017-02-14 11:59:44.689] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":10496}
+[2017-02-14 11:59:44.704] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":7788}
+[2017-02-14 11:59:44.720] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":1584}
+[2017-02-14 11:59:44.744] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6380}
+[2017-02-14 12:00:47.847] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 12:00:47.878] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 12:00:48.422] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 12:00:48.437] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 12:00:48.443] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 12:00:48.490] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 12:00:48.523] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 12:00:48.547] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 12:00:48.560] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 12:00:48.563] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:05:54.261] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":11132}
+[2017-02-14 14:06:49.376] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:06:49.407] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:06:50.309] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:06:50.317] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:06:50.321] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:06:50.326] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:06:50.331] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:06:50.331] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:06:50.322] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:06:50.350] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:08:50.893] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":7652}
+[2017-02-14 14:08:50.912] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9696}
+[2017-02-14 14:08:50.929] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":7832}
+[2017-02-14 14:08:50.945] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":10860}
+[2017-02-14 14:08:50.962] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":12668}
+[2017-02-14 14:08:50.980] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":9536}
+[2017-02-14 14:08:50.998] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":8152}
+[2017-02-14 14:08:51.014] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":8304}
+[2017-02-14 14:09:47.020] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:09:47.045] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:09:47.618] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:09:47.641] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:09:47.696] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:09:47.699] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:09:47.700] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:09:47.722] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:09:47.729] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:09:47.752] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:10:37.744] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":2408}
+[2017-02-14 14:10:37.765] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":10256}
+[2017-02-14 14:10:37.792] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":6152}
+[2017-02-14 14:10:37.814] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":4384}
+[2017-02-14 14:10:37.833] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":1212}
+[2017-02-14 14:10:37.860] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":2760}
+[2017-02-14 14:10:37.882] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":11316}
+[2017-02-14 14:10:37.902] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":2568}
+[2017-02-14 14:13:19.016] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:13:19.045] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:13:19.581] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:13:19.588] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:13:19.653] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:13:19.660] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:13:19.667] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:13:19.673] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:13:19.726] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:13:19.774] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:16:32.813] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":896}
+[2017-02-14 14:21:49.327] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:21:49.356] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:21:49.871] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:21:49.871] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:21:49.888] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:21:49.922] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:21:49.964] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:21:49.970] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:21:49.977] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:21:49.997] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:21:58.378] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":3272}
+[2017-02-14 14:21:58.404] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":1548}
+[2017-02-14 14:23:37.898] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:23:37.923] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:23:38.467] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:23:38.488] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:23:38.504] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:23:38.505] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:23:38.570] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:23:38.574] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:23:38.579] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:23:38.589] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:27:42.818] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":9068}
+[2017-02-14 14:27:52.673] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:27:52.702] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:27:53.213] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:27:53.227] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:27:53.226] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:27:53.239] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:27:53.312] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:27:53.309] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:27:53.318] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:27:53.342] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:32:30.560] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":10076}
+[2017-02-14 14:32:30.588] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":10268}
+[2017-02-14 14:32:30.607] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":7944}
+[2017-02-14 14:32:30.623] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":2000}
+[2017-02-14 14:32:30.639] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":9088}
+[2017-02-14 14:32:30.654] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":1572}
+[2017-02-14 14:32:30.670] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":6316}
+[2017-02-14 14:32:30.688] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":8228}
+[2017-02-14 14:32:33.848] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:32:33.874] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:32:34.377] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:32:34.377] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:32:34.392] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:32:34.457] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:32:34.474] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:32:34.476] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:32:34.475] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:32:34.480] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:45:07.874] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":5328}
+[2017-02-14 14:45:07.892] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7900}
+[2017-02-14 14:45:07.910] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":7724}
+[2017-02-14 14:45:07.927] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":7596}
+[2017-02-14 14:45:07.944] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":9072}
+[2017-02-14 14:45:07.963] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":436}
+[2017-02-14 14:45:07.981] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":9100}
+[2017-02-14 14:45:07.997] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":10836}
+[2017-02-14 14:45:09.861] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:45:09.887] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:45:10.422] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:45:10.423] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:45:10.430] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:45:10.460] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:45:10.504] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:45:10.505] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:45:10.508] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:45:10.525] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:45:14.406] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":8684}
+[2017-02-14 14:45:14.422] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":8612}
+[2017-02-14 14:45:14.440] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":12100}
+[2017-02-14 14:45:14.460] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":1580}
+[2017-02-14 14:45:14.462] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":2312}
+[2017-02-14 14:45:14.481] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":1708}
+[2017-02-14 14:45:14.500] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":5864}
+[2017-02-14 14:45:14.519] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":5896}
+[2017-02-14 14:50:21.268] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:50:21.303] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:50:21.800] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:50:21.807] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:50:21.830] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:50:21.887] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:50:21.993] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:50:22.008] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:50:22.007] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:50:22.021] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:51:32.478] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":11864}
+[2017-02-14 14:56:56.892] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:56:56.918] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:56:57.440] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:56:57.440] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:56:57.472] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:56:57.550] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:56:57.567] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:56:57.575] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:56:57.576] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:56:57.579] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:56:59.263] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":10836}
+[2017-02-14 14:56:59.282] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7672}
+[2017-02-14 14:56:59.301] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":10676}
+[2017-02-14 14:56:59.322] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":1112}
+[2017-02-14 14:56:59.343] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":9980}
+[2017-02-14 14:56:59.367] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":8120}
+[2017-02-14 14:56:59.387] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":7120}
+[2017-02-14 14:56:59.408] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":3516}
+[2017-02-14 14:58:26.416] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 14:58:26.449] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 14:58:27.023] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:58:27.097] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 14:58:27.110] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:58:27.105] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 14:58:27.159] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:58:27.239] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 14:58:27.249] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:58:27.276] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 14:58:37.826] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":11804}
+[2017-02-14 14:58:37.846] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9940}
+[2017-02-14 14:58:37.871] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":3440}
+[2017-02-14 14:58:37.896] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":13092}
+[2017-02-14 14:58:37.917] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":12640}
+[2017-02-14 14:58:37.942] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":4464}
+[2017-02-14 14:58:37.963] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":12028}
+[2017-02-14 14:58:37.972] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":1936}
+[2017-02-14 15:17:36.236] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:17:36.269] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:17:36.795] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:17:36.834] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:17:36.868] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:17:36.928] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:17:36.937] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:17:36.943] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:17:36.948] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:17:36.979] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:17:46.942] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":10904}
+[2017-02-14 15:17:46.973] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":1176}
+[2017-02-14 15:17:46.994] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":12960}
+[2017-02-14 15:17:47.016] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":2628}
+[2017-02-14 15:17:47.036] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":11556}
+[2017-02-14 15:17:47.060] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":3936}
+[2017-02-14 15:17:47.081] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":12080}
+[2017-02-14 15:17:47.101] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":7036}
+[2017-02-14 15:18:09.985] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:18:10.018] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:18:10.508] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:18:10.517] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:18:10.594] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:18:10.634] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:18:10.643] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:18:10.669] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:18:10.668] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:18:25.913] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":8524}
+[2017-02-14 15:18:25.931] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":12356}
+[2017-02-14 15:18:25.933] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":9304}
+[2017-02-14 15:18:25.936] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6700}
+[2017-02-14 15:18:25.959] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":10260}
+[2017-02-14 15:18:25.981] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":5132}
+[2017-02-14 15:18:26.002] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":11608}
+[2017-02-14 15:18:49.747] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:18:49.770] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:18:50.249] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:18:50.245] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:18:50.252] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:18:50.287] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:18:50.330] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:18:50.332] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:18:50.337] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:18:51.959] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":244}
+[2017-02-14 15:18:51.979] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":7488}
+[2017-02-14 15:18:51.983] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7744}
+[2017-02-14 15:18:51.998] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":9876}
+[2017-02-14 15:18:52.018] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":4616}
+[2017-02-14 15:18:52.039] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":9952}
+[2017-02-14 15:18:52.062] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":7704}
+[2017-02-14 15:19:19.606] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:19:19.632] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:19:20.146] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:19:20.148] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:19:20.194] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:19:20.231] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:19:20.242] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:19:20.250] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:19:20.258] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:19:20.284] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:19:36.529] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":5520}
+[2017-02-14 15:19:36.557] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":12052}
+[2017-02-14 15:19:36.580] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":7348}
+[2017-02-14 15:19:36.589] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":9536}
+[2017-02-14 15:19:36.619] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":7844}
+[2017-02-14 15:19:36.643] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":11820}
+[2017-02-14 15:19:36.651] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":1572}
+[2017-02-14 15:19:36.684] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":896}
+[2017-02-14 15:21:20.517] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:21:20.542] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:21:21.106] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:21:21.124] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:21:21.125] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:21:21.134] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:21:21.166] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:21:21.178] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:21:21.209] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:21:21.245] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:21:22.704] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":6544}
+[2017-02-14 15:21:22.717] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":11556}
+[2017-02-14 15:21:22.722] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":6120}
+[2017-02-14 15:21:22.724] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":916}
+[2017-02-14 15:21:22.736] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":8424}
+[2017-02-14 15:21:22.760] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":8416}
+[2017-02-14 15:21:22.775] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":6116}
+[2017-02-14 15:21:22.805] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":12688}
+[2017-02-14 15:21:38.665] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:21:38.690] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:21:39.222] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:21:39.222] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:21:39.233] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:21:39.261] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:21:39.265] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:21:39.272] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:21:39.280] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:21:39.328] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:21:51.106] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":6432}
+[2017-02-14 15:21:51.124] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":11152}
+[2017-02-14 15:21:51.145] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":10272}
+[2017-02-14 15:21:51.168] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":11032}
+[2017-02-14 15:21:51.190] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":8580}
+[2017-02-14 15:21:51.211] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":5112}
+[2017-02-14 15:21:51.234] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":8864}
+[2017-02-14 15:21:51.256] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":3628}
+[2017-02-14 15:22:42.536] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:22:42.553] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:22:42.942] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:22:42.942] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:22:42.947] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:22:42.966] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:22:43.016] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:22:45.976] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":10684}
+[2017-02-14 15:22:45.997] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7488}
+[2017-02-14 15:22:46.015] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":9700}
+[2017-02-14 15:22:46.039] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":4088}
+[2017-02-14 15:22:46.063] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":12688}
+[2017-02-14 15:35:31.289] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:35:31.318] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:35:31.880] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:35:31.918] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:35:31.924] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:35:31.928] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:35:31.937] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:35:31.942] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:35:31.954] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:35:32.048] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:35:43.378] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":960}
+[2017-02-14 15:35:43.401] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6244}
+[2017-02-14 15:35:43.421] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":8168}
+[2017-02-14 15:35:43.442] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":12752}
+[2017-02-14 15:35:43.466] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":7008}
+[2017-02-14 15:35:43.488] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":4276}
+[2017-02-14 15:35:43.513] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":6952}
+[2017-02-14 15:35:43.534] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":1128}
+[2017-02-14 15:36:45.411] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:36:45.437] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:36:45.984] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:36:45.998] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:36:46.020] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:36:46.029] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:36:46.078] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:36:46.080] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:36:46.087] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:36:46.090] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:36:50.825] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":9412}
+[2017-02-14 15:36:50.849] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":10604}
+[2017-02-14 15:36:50.868] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":10696}
+[2017-02-14 15:36:50.871] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":8136}
+[2017-02-14 15:36:50.881] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":8524}
+[2017-02-14 15:36:50.885] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":9896}
+[2017-02-14 15:36:50.899] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":7044}
+[2017-02-14 15:36:50.909] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":5468}
+[2017-02-14 15:37:50.333] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:37:50.359] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:37:50.902] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:37:50.897] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:37:50.906] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:37:50.968] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:37:50.980] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:37:50.980] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:37:50.989] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:37:50.992] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:37:58.513] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":11696}
+[2017-02-14 15:37:58.532] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9988}
+[2017-02-14 15:37:58.564] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":9476}
+[2017-02-14 15:37:58.579] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":6700}
+[2017-02-14 15:37:58.608] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":3628}
+[2017-02-14 15:37:58.632] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":13148}
+[2017-02-14 15:37:58.655] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":11860}
+[2017-02-14 15:37:58.677] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":7344}
+[2017-02-14 15:38:09.066] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:38:09.100] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:38:09.667] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:38:09.678] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:38:09.686] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:38:09.706] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:38:09.736] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:38:09.757] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:38:09.760] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:38:09.773] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:38:45.361] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":2440}
+[2017-02-14 15:40:41.209] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:40:41.236] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:40:41.779] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:40:41.784] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:40:41.786] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:40:41.843] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:40:41.845] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:40:41.867] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:40:41.905] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:40:41.939] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:40:45.785] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":4524}
+[2017-02-14 15:40:45.800] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":4380}
+[2017-02-14 15:40:45.803] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":11092}
+[2017-02-14 15:40:45.807] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"false","serverType":"connector","pid":5472}
+[2017-02-14 15:40:45.818] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9836}
+[2017-02-14 15:40:45.826] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":464}
+[2017-02-14 15:40:45.828] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":1708}
+[2017-02-14 15:40:53.311] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:40:53.343] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:40:53.857] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:40:53.859] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:40:53.896] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:40:53.911] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:40:53.958] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:40:53.973] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:40:53.975] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:40:54.026] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:41:26.834] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":880}
+[2017-02-14 15:41:27.973] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:41:27.999] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:41:28.518] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:41:28.522] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:41:28.542] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:41:28.544] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:41:28.626] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:41:28.633] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:41:28.633] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:41:28.644] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:41:32.008] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":1800}
+[2017-02-14 15:41:32.031] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":12324}
+[2017-02-14 15:41:32.056] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":7284}
+[2017-02-14 15:41:32.078] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":13304}
+[2017-02-14 15:41:32.099] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":7372}
+[2017-02-14 15:41:32.122] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":4672}
+[2017-02-14 15:41:32.146] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":5224}
+[2017-02-14 15:41:32.169] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":416}
+[2017-02-14 15:41:53.866] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:41:53.891] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:41:54.412] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:41:54.452] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:41:54.514] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:41:54.512] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:41:54.532] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:41:54.544] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:41:54.557] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:41:54.580] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:42:07.098] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":8936}
+[2017-02-14 15:42:07.125] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":4556}
+[2017-02-14 15:42:07.147] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":6972}
+[2017-02-14 15:42:07.170] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":7836}
+[2017-02-14 15:42:07.192] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":7672}
+[2017-02-14 15:42:07.217] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":10580}
+[2017-02-14 15:42:07.224] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":8392}
+[2017-02-14 15:42:07.254] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":5856}
+[2017-02-14 15:42:26.050] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:42:26.074] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:42:26.586] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:42:26.598] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:42:26.628] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:42:26.631] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:42:26.684] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:42:26.695] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:42:26.697] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:42:26.748] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:42:45.664] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":10292}
+[2017-02-14 15:46:44.019] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:46:44.045] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:46:44.570] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:46:44.564] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:46:44.590] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:46:44.643] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:46:44.658] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:46:44.682] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:46:44.682] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:46:44.686] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:47:06.319] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":2436}
+[2017-02-14 15:47:06.337] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":11500}
+[2017-02-14 15:47:06.361] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":6332}
+[2017-02-14 15:47:06.371] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":8320}
+[2017-02-14 15:47:06.396] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":1936}
+[2017-02-14 15:47:06.417] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":11768}
+[2017-02-14 15:47:06.436] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":8580}
+[2017-02-14 15:47:06.459] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":10696}
+[2017-02-14 15:51:58.297] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 15:51:58.326] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 15:51:58.900] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:51:58.962] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:51:58.964] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 15:51:58.966] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 15:51:58.988] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 15:51:59.032] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:51:59.052] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 15:51:59.057] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:03:41.130] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":3560}
+[2017-02-14 16:03:41.140] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":5244}
+[2017-02-14 16:03:41.165] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":8788}
+[2017-02-14 16:03:41.184] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":2440}
+[2017-02-14 16:03:41.203] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":12552}
+[2017-02-14 16:03:41.224] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":12996}
+[2017-02-14 16:03:41.233] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":12252}
+[2017-02-14 16:03:41.258] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":11880}
+[2017-02-14 16:03:42.730] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 16:03:42.757] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 16:03:43.297] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:03:43.304] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:03:43.324] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:03:43.389] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 16:03:43.396] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:03:43.399] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 16:03:43.404] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:03:43.420] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:03:49.182] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":4684}
+[2017-02-14 16:03:49.204] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":584}
+[2017-02-14 16:03:49.208] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":11636}
+[2017-02-14 16:03:49.211] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":832}
+[2017-02-14 16:03:49.212] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":9744}
+[2017-02-14 16:03:49.221] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9424}
+[2017-02-14 16:03:49.222] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":11676}
+[2017-02-14 16:03:49.233] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6348}
+[2017-02-14 16:04:21.583] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 16:04:21.610] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 16:04:22.223] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:04:22.240] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:04:22.248] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 16:04:22.248] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:04:22.318] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:04:22.319] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:04:22.339] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 16:04:22.345] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:05:06.469] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":2308}
+[2017-02-14 16:05:07.828] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 16:05:07.853] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 16:05:08.384] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:05:08.403] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:05:08.412] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:05:08.484] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 16:05:08.496] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:05:08.498] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:05:08.518] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:05:08.543] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 16:09:00.271] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":9560}
+[2017-02-14 16:09:00.294] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":12660}
+[2017-02-14 16:09:00.313] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":3196}
+[2017-02-14 16:09:00.330] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":6416}
+[2017-02-14 16:09:00.337] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":8524}
+[2017-02-14 16:09:00.360] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":3800}
+[2017-02-14 16:09:00.377] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":4680}
+[2017-02-14 16:09:00.395] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":4088}
+[2017-02-14 16:09:03.368] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 16:09:03.394] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 16:09:03.932] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:09:03.956] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 16:09:03.967] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:09:03.969] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:09:04.043] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:09:04.040] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 16:09:04.054] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:09:04.075] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:09:25.787] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":11808}
+[2017-02-14 16:10:42.308] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 16:10:42.334] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 16:10:42.881] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:10:42.889] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:10:42.902] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:10:42.921] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 16:10:42.979] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 16:10:42.981] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:10:42.983] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:10:42.986] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:10:52.571] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":2604}
+[2017-02-14 16:10:52.597] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":13188}
+[2017-02-14 16:10:52.615] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":9276}
+[2017-02-14 16:10:52.638] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":244}
+[2017-02-14 16:10:52.659] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":4248}
+[2017-02-14 16:10:52.681] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":12224}
+[2017-02-14 16:10:52.702] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":9348}
+[2017-02-14 16:10:52.725] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":12008}
+[2017-02-14 16:11:17.978] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 16:11:18.006] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 16:11:18.544] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:11:18.578] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:11:18.574] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:11:18.618] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 16:11:18.642] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:11:18.648] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:11:18.654] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:11:18.668] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 16:12:37.246] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":5864}
+[2017-02-14 16:12:37.281] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9568}
+[2017-02-14 16:12:37.290] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":10536}
+[2017-02-14 16:12:37.315] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":7412}
+[2017-02-14 16:12:37.336] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":11136}
+[2017-02-14 16:12:37.361] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":4528}
+[2017-02-14 16:12:37.380] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":9128}
+[2017-02-14 16:12:37.403] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":3784}
+[2017-02-14 16:12:38.518] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 16:12:38.543] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 16:12:39.090] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:12:39.099] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:12:39.102] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:12:39.157] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 16:12:39.185] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:12:39.185] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:12:39.207] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:12:39.246] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 16:12:56.882] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":12080}
+[2017-02-14 16:12:58.205] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 16:12:58.229] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 16:12:58.747] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:12:58.787] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:12:58.787] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:12:58.815] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 16:12:58.871] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:12:58.872] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 16:12:58.870] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:12:58.883] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:15:15.015] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":11356}
+[2017-02-14 16:15:17.000] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 16:15:17.025] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 16:15:17.562] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:15:17.577] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:15:17.573] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:15:17.605] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 16:15:17.667] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:15:17.675] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:15:17.678] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:15:17.677] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 16:20:03.437] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":12656}
+[2017-02-14 16:20:03.471] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":11856}
+[2017-02-14 16:20:03.491] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":11644}
+[2017-02-14 16:20:03.510] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":9500}
+[2017-02-14 16:20:03.518] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":7840}
+[2017-02-14 16:20:03.544] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":10272}
+[2017-02-14 16:20:03.563] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":9200}
+[2017-02-14 16:20:03.584] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":8120}
+[2017-02-14 16:20:04.505] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2017-02-14 16:20:04.531] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2017-02-14 16:20:05.161] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:20:05.168] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:20:05.176] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "chat", "127.0.0.1", 3005
+[2017-02-14 16:20:05.186] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2017-02-14 16:20:05.232] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2017-02-14 16:20:05.241] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:20:05.252] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:20:05.262] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2017-02-14 16:20:45.885] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect auth-server-1 auth {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"auth-server-1","host":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"auth","pid":12244}
+[2017-02-14 16:20:45.917] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9588}
+[2017-02-14 16:20:45.941] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-3 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-3","host":"127.0.0.1","port":6052,"serverType":"chat","pid":9104}
+[2017-02-14 16:20:45.964] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-2 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-2","host":"127.0.0.1","port":6051,"serverType":"chat","pid":6116}
+[2017-02-14 16:20:45.988] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect chat-server-1 chat {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":12548}
+[2017-02-14 16:20:46.012] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-3 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-3","host":"127.0.0.1","port":4052,"clientPort":3052,"frontend":"true","serverType":"connector","pid":8976}
+[2017-02-14 16:20:46.035] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-2 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-2","host":"127.0.0.1","port":4051,"clientPort":3051,"frontend":"true","serverType":"connector","pid":10936}
+[2017-02-14 16:20:46.059] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"C:\\Users\\pengy\\Documents\\GitHub\\serverChess\\game-server\\app","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6820}
