@@ -1,2 +1,0 @@
-node app
-pause
